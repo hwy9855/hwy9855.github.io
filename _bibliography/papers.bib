@@ -1,115 +1,192 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{huang-etal-2025-masking,
+    title = "Masking in Multi-hop {QA}: An Analysis of How Language Models Perform with Context Permutation",
+    author = "Huang, Wenyu  and
+      Vougiouklis, Pavlos  and
+      Lapata, Mirella  and
+      Pan, Jeff Z.",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.869/",
+    pages = "17781--17795",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Multi-hop Question Answering (MHQA) adds layers of complexity to question answering, making it more challenging. When Language Models (LMs) are prompted with multiple search results, they are tasked not only with retrieving relevant information but also employing multi-hop reasoning across the information sources. Although LMs perform well on traditional question-answering tasks, the causal mask can hinder their capacity to reason across complex contexts. In this paper, we explore how LMs respond to multi-hop questions by permuting search results (retrieved documents) under various configurations. Our study reveals interesting findings as follows: 1) Encoder-decoder models, such as the ones in the Flan-T5 family, generally outperform causal decoder-only LMs in MHQA tasks, despite being significantly smaller in size; 2) altering the order of gold documents reveals distinct trends in both Flan T5 models and fine-tuned decoder-only models, with optimal performance observed when the document order aligns with the reasoning chain order; 3) enhancing causal decoder-only models with bi-directional attention by modifying the causal mask can effectively boost their end performance. In addition to the above, we conduct a thorough investigation of the distribution of LM attention weights in the context of MHQA. Our experiments reveal that attention weights tend to peak at higher values when the resulting answer is correct. We leverage this finding to heuristically improve LMs' performance on this task. Our code is publicly available at https://github.com/hwy9855/MultiHopQA-Reasoning.",
+    google_scholar_id={zYLM7Y9cAGgC},
+    selected={true},
+    bibtex_show={true},
+    pdf={https://aclanthology.org/2025.acl-long.869.pdf},
+    abbr={ACL 2025},
+    note={<b>Oral Presentation</b>}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@misc{du2025rethinkingmemoryaitaxonomy,
+      title={Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions}, 
+      author={Yiming Du* and Wenyu Huang* and Danna Zheng* and Zhaowei Wang and Sebastien Montella and Mirella Lapata and Kam-Fai Wong and Jeff Z. Pan},
+      year={2025},
+      eprint={2505.00675},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.00675}, 
+      selected={true},
+      google_scholar_id={IjCSPb-OGe4C},
+      bibtex_show={true},
+      month={May},
+      pdf={https://arxiv.org/pdf/2505.00675},
+      abbr={arXiv}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{huang-etal-2024-less,
+    title = "Less is More: Making Smaller Language Models Competent Subgraph Retrievers for Multi-hop {KGQA}",
+    author = "Huang, Wenyu  and
+      Zhou, Guancheng  and
+      Wang, Hongru  and
+      Vougiouklis, Pavlos  and
+      Lapata, Mirella  and
+      Pan, Jeff Z.",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.927/",
+    doi = "10.18653/v1/2024.findings-emnlp.927",
+    pages = "15787--15803",
+    abstract = "Retrieval-Augmented Generation (RAG) is widely used to inject external non-parametric knowledge into large language models (LLMs). Recent works suggest that Knowledge Graphs (KGs) contain valuable external knowledge for LLMs. Retrieving information from KGs differs from extracting it from document sets. Most existing approaches seek to directly retrieve relevant subgraphs, thereby eliminating the need for extensive SPARQL annotations, traditionally required by semantic parsing methods. In this paper, we model the subgraph retrieval task as a conditional generation task handled by small language models. Specifically, we define a subgraph identifier as a sequence of relations, each represented as a special token stored in the language models. Our base generative subgraph retrieval model, consisting of only 220M parameters, achieves competitive retrieval performance compared to state-of-the-art models relying on 7B parameters, demonstrating that small language models are capable of performing the subgraph retrieval task. Furthermore, our largest 3B model, when plugged with an LLM reader, sets new SOTA end-to-end performance on both the WebQSP and CWQ benchmarks. Our model and data will be made available online: https://github.com/hwy9855/GSR.",
+    google_scholar_id={UeHWp8X0CEIC},
+    selected={true},
+    abbr={EMNLP 2024},
+    bibtex_show={true},
+    pdf={https://aclanthology.org/2024.findings-emnlp.927.pdf},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@misc{wang2024unimsragunifiedmultisourceretrievalaugmented,
+      abbr={arXiv},
+      title={UniMS-RAG: A Unified Multi-source Retrieval-Augmented Generation for Personalized Dialogue Systems}, 
+      author={Hongru Wang and Wenyu Huang and Yang Deng and Rui Wang and Zezhong Wang and Yufei Wang and Fei Mi and Jeff Z. Pan and Kam-Fai Wong},
+      year={2024},
+      eprint={2401.13256},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2401.13256}, 
+      selected={true},
+      google_scholar_id={9yKSN-GCB0IC},
+      bibtex_show={true},
+      month={January},
+      pdf={https://arxiv.org/pdf/2401.13256}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{huang-etal-2023-retrieval,
+    title = "Retrieval Augmented Generation with Rich Answer Encoding",
+    author = "Huang, Wenyu  and
+      Lapata, Mirella  and
+      Vougiouklis, Pavlos  and
+      Papasarantopoulos, Nikos  and
+      Pan, Jeff",
+    editor = "Park, Jong C.  and
+      Arase, Yuki  and
+      Hu, Baotian  and
+      Lu, Wei  and
+      Wijaya, Derry  and
+      Purwarianti, Ayu  and
+      Krisnadhi, Adila Alfa",
+    booktitle = "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = nov,
+    year = "2023",
+    address = "Nusa Dua, Bali",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.ijcnlp-main.65/",
+    doi = "10.18653/v1/2023.ijcnlp-main.65",
+    pages = "1012--1025",
+    selected={true},
+    google_scholar_id={d1gkVwhDpl0C},
+    bibtex_show={true},
+    pdf={https://aclanthology.org/2023.ijcnlp-main.65.pdf},
+    abbr={IJCNLP 2023}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{10.1145/3626772.3661351,
+author = {Huang, Wenyu and Melo, Andr\'{e} and Pan, Jeff Z.},
+title = {A Large-scale Offer Alignment Model for Partitioning Filtering and Matching Product Offers},
+year = {2024},
+isbn = {9798400704314},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626772.3661351},
+doi = {10.1145/3626772.3661351},
+abstract = {Offer alignment is a key step in a product knowledge graph construction pipeline. It aims to align retailer offers of the same product for better coverage of product details. With the rapid development of online shopping services, the offer alignment task is applied in ever larger datasets. This work aims to build an offer alignment system that can efficiently be used in large-scale offer data. The key components of this system include: 1) common offer encoders for encoding text offer data into representations; 2) trainable LSH partitioning module to divide similar offers into small blocks; 3) lightweight sophisticated late-interactions for efficient filtering and scoring of offer alignment candidate pairs. We evaluate the system on public WDC offer alignment dataset, as well as DBLP-Scholar and DBLP-ACM.},
+booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {2880–2884},
+numpages = {5},
+keywords = {entity matching, offer alignment, product matching},
+location = {Washington DC, USA},
+series = {SIGIR '24},
+google_scholar_id={qjMakFHDy7sC},
+bibtex_show={true},
+pdf={https://dl.acm.org/doi/pdf/10.1145/3626772.3661351},
+abbr={SIGIR 2024},
+month={July},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@inproceedings{wang-etal-2025-rethinking-stateful,
+    title = "Rethinking Stateful Tool Use in Multi-Turn Dialogues: Benchmarks and Challenges",
+    author = "Wang, Hongru  and
+      Huang, Wenyu  and
+      Wang, Yufei  and
+      Xi, Yuanhao  and
+      Lu, Jianqiao  and
+      Zhang, Huan  and
+      Hu, Nan  and
+      Liu, Zeming  and
+      Pan, Jeff Z.  and
+      Wong, Kam-Fai",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.284/",
+    pages = "5433--5453",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Existing benchmarks that assess Language Models (LMs) as Language Agents (LAs) for tool use primarily focus on stateless, single-turn interactions or partial evaluations, such as tool selection in a single turn, overlooking the inherent stateful nature of interactions in multi-turn applications. To fulfill this gap, we propose DialogTool, a multi-turn dialogue dataset with stateful tool interactions considering the whole life cycle of tool use, across six key tasks in three stages: 1) \textit{tool creation}; 2) \textit{tool utilization}: tool awareness, tool selection, tool execution; and 3) \textit{role-consistent response}: response generation and role play. Furthermore, we build VirtualMobile {--} an embodied virtual mobile evaluation environment to simulate API calls and assess the robustness of the created APIs. Taking advantage of these artifacts, we conduct comprehensive evaluation on 13 distinct open- and closed-source LLMs and provide detailed analysis at each stage, revealing that the existing state-of-the-art LLMs still cannot perform well to use tools over long horizons .",
+    google_scholar_id={Tyk-4Ss8FVUC},
+    bibtex_show={true},
+    pdf={https://aclanthology.org/2025.findings-acl.284.pdf},
+    abbr={ACL 2025}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{HUANG2025113648,
+title = {Prompting large language models with knowledge graphs for question answering involving long-tail facts},
+journal = {Knowledge-Based Systems},
+volume = {324},
+pages = {113648},
+year = {2025},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2025.113648},
+url = {https://www.sciencedirect.com/science/article/pii/S095070512500694X},
+author = {Wenyu Huang and Guancheng Zhou and Mirella Lapata and Pavlos Vougiouklis and Sebastien Montella and Jeff Z. Pan},
+keywords = {Large language models, Knowledge graphs, Retrieval-augmented generation, Evaluation},
+abstract = {Although Large Language Models (LLMs) are effective in performing various NLP tasks, they still struggle to handle tasks that require extensive, real-world knowledge, especially when dealing with long-tail facts (facts related to long-tail entities). This limitation highlights the need to supplement LLMs with non-parametric knowledge. To address this issue, we analysed the effects of different types of non-parametric knowledge, including textual passage and knowledge graphs (KGs). Since LLMs have probably seen the majority of factual question-answering datasets already, to facilitate our analysis, we proposed a fully automatic pipeline for creating a benchmark that requires knowledge of long-tail facts for answering the involved questions. Using this pipeline, we introduce the LTGen benchmark. We evaluate state-of-the-art LLMs in different knowledge settings using the proposed benchmark. Our experiments show that LLMs alone struggle with answering these questions, especially when the long-tail level is high or rich knowledge is required. Nonetheless, the performance of the same models improved significantly when they were prompted with non-parametric knowledge. We observed that, in most cases, prompting LLMs with KG triples surpasses passage-based prompting using a state-of-the-art retriever. In addition, while prompting LLMs with both KG triples and documents does not consistently improve knowledge coverage, it can dramatically reduce hallucinations in the generated content.},
+google_scholar_id={2osOgNQ5qMEC},
+bibtex_show={true},
+abbr = {KBS},
+month={May},
+pdf={https://www.sciencedirect.com/science/article/pii/S095070512500694X}
 }

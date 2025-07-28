@@ -1,24 +1,21 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Retrieval-Augmented Generation
+description: Rich answer encoding for enhanced RAG systems
+img: assets/img/4.jpg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project focuses on enhancing retrieval-augmented generation (RAG) systems through innovative answer encoding techniques. The research introduces novel methods for encoding and representing answers in a way that improves both retrieval accuracy and generation quality.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Key innovations include:
+- **Rich answer encoding**: Developing sophisticated representations of answers that capture semantic meaning
+- **Improved retrieval mechanisms**: Enhancing the ability to find relevant information for user queries
+- **Better generation quality**: Producing more accurate and contextually appropriate responses
+- **Multi-modal integration**: Incorporating various types of information sources
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The work has been published in top-tier conferences and has received recognition for its contributions to the field of retrieval-augmented generation, with over 25 citations to date.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

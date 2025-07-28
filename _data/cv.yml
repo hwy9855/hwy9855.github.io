@@ -2,96 +2,95 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Wenyu Huang
+    - name: Current Position
+      value: Researcher, School of Informatics, University of Edinburgh
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: University of Edinburgh, Edinburgh, United Kingdom
+      year: 2020-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Natural Language Processing and Dialogue Systems
+        - Knowledge Graph Population and Question Answering
+        - Retrieval-Augmented Generation
+    - title: MSc in Computer Science
+      institution: University of Edinburgh, Edinburgh, United Kingdom
+      year: 2019-2020
       description:
-        - Description 1.
-        - Description 2.
+        - Machine Learning and Natural Language Processing
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate
+      institution: School of Informatics, University of Edinburgh
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Natural Language Processing research
+        - Dialogue Systems and Conversational AI
+        - Knowledge Graph Population and Question Answering
+    - title: PhD Researcher
+      institution: School of Informatics, University of Edinburgh
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Research on retrieval-augmented generation
+        - Knowledge graph population with language models
+        - Multi-hop question answering systems
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "UniMS-RAG: Unified Multi-Source Retrieval-Augmented Generation"
+      year: 2024
+      description: Personalized dialogue systems with multi-source information retrieval. Published in arXiv with 41+ citations.
+    - title: "Less is More: Making Smaller Language Models Competent Subgraph Retrievers"
+      year: 2024
+      description: Multi-hop knowledge graph question answering with efficient subgraph retrieval. Published at EMNLP 2024.
+    - title: "Knowledge Graph Population with Language Models"
+      year: 2022-2024
+      description: Task-specific pre-training and prompt decomposition for KG construction. Published in arXiv with 14+ citations.
+    - title: "Retrieval Augmented Generation with Rich Answer Encoding"
+      year: 2023
+      description: Enhanced RAG systems through innovative answer encoding techniques. Published at IJCNLP 2023 with 25+ citations.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - PhD in Computer Science, University of Edinburgh
+        - Paper accepted at ACL 2025 (Oral Presentation)
+        - Paper accepted at EMNLP 2024
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Paper accepted at IJCNLP 2023
+        - Paper accepted at SIGIR 2024
+    - year: 2020
+      items:
+        - MSc in Computer Science, University of Edinburgh
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Natural Language Processing
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Dialogue Systems and Conversational AI
+        - Retrieval-Augmented Generation (RAG)
+        - Knowledge Graph Population and Question Answering
+        - Multi-hop Reasoning and Context Permutation
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Large Language Models and Prompt Engineering
+        - Subgraph Retrieval and Knowledge Graph Integration
+        - Stateful Tool Use in Multi-turn Dialogues
+        - Memory Systems in AI
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Research Areas: Natural Language Processing, Dialogue Systems, Knowledge Graphs, Machine Learning, Conversational AI

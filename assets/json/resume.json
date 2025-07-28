@@ -1,200 +1,143 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Wenyu Huang",
+    "label": "PhD Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "wenyu.huang@ed.ac.uk",
+    "phone": "",
+    "url": "https://hwy9855.github.io/",
+    "summary": "PhD Student in Natural Language Processing at the School of Informatics, University of Edinburgh. Specializing in dialogue systems, retrieval-augmented generation, and knowledge graph population.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "School of Informatics",
+      "postalCode": "EH8 9AB",
+      "city": "Edinburgh",
+      "countryCode": "GB",
+      "region": "Scotland"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Google Scholar",
+        "username": "kFkg0G0AAAAJ",
+        "url": "https://scholar.google.com/citations?user=kFkg0G0AAAAJ"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Huawei UK Research and Development Center",
+      "position": "Research Intern",
+      "startDate": "2022-07-01",
+      "endDate": "2022-11-01",
+      "summary": "Research on large-scale offer alignment. Published at SIGIR 2024.",
+      "highlights": ["Offer Alignment", "Entity Matching"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Edinburgh",
+      "location": "Edinburgh, UK",
+      "url": "https://www.ed.ac.uk/",
+      "area": "Natural Language Processing",
+      "studyType": "Ph.D.",
+      "startDate": "2021-09-01",
+      "endDate": "2026-09-01"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "University of Edinburgh",
+      "location": "Edinburgh, UK",
+      "url": "https://www.ed.ac.uk/",
+      "area": "Artificial Intelligence",
+      "studyType": "M.Sc.",
+      "startDate": "2020-09-01",
+      "endDate": "2021-08-31",
+      "score": "Distinction with Thesis Award"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "South China University of Technology",
+      "location": "Guangzhou, China",
+      "url": "https://www.scut.edu.cn/",
+      "area": "Software Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2016-09-01",
+      "endDate": "2020-06-30"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Masking in Multi-hop {QA}: An Analysis of How Language Models Perform with Context Permutation",
+      "publisher": "Proceedings of ACL 2025",
+      "releaseDate": "2025-07-01",
+      "url": "https://aclanthology.org/2025.acl-long.869/",
+      "summary": "ACL 2025 Oral Presentation."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions",
+      "publisher": "arXiv preprint arXiv:2505.00675",
+      "releaseDate": "2025-05-01",
+      "url": "https://arxiv.org/abs/2505.00675",
+      "summary": "Preprint. "
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
+      "name": "Less is More: Making Smaller Language Models Competent Subgraph Retrievers for Multi-hop KGQA",
+      "publisher": "Findings of EMNLP 2024",
+      "releaseDate": "2024-11-01",
+      "url": "https://aclanthology.org/2024.findings-emnlp.927/",
+      "summary": "EMNLP 2024 Findings."
+    },
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "UniMS-RAG: A unified multi-source retrieval-augmented generation for personalized dialogue systems",
+      "publisher": "arXiv preprint arXiv:2401.13256",
+      "releaseDate": "2024-01-01",
+      "url": "https://arxiv.org/abs/2401.13256",
+      "summary": "Preprint. "
+    },
+    {
+      "name": "Retrieval augmented generation with rich answer encoding",
+      "publisher": "Proceedings of IJCNLP 2023",
+      "releaseDate": "2023-11-01",
+      "url": "https://aclanthology.org/events/ijcnlp-2023/",
+      "summary": "Enhanced RAG systems through innovative answer encoding techniques. Published at IJCNLP 2023 with 25+ citations."
+    },
+    {
+      "name": "For more publications, please refer to publications page.",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Chinese",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Natural Language Processing",
+      "icon": "fa-solid fa-language",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Conversational Search",
+        "Retrieval-Augmented Generation",
+        "Multi-hop Question Answering",
+        "Large Language Models"
+      ]
+    },
+    {
+      "name": "Large Language Models",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Long Context",
+        "Reasoning",
+        "Reinforcement Learning"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "references": []
 }
