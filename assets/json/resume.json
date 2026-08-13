@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Wenyu Huang",
-    "label": "PhD Student",
+    "label": "PhD Candidate in Natural Language Processing",
     "image": "",
-    "email": "w.huang@ed.ac.uk",
+    "email": "wyhuang1998@gmail.com",
     "phone": "",
     "url": "https://hwy9855.github.io/",
-    "summary": "PhD Student in Natural Language Processing at the School of Informatics, University of Edinburgh. Specializing in dialogue systems, retrieval-augmented generation, and knowledge graph population.",
+    "summary": "Final-year PhD candidate at the University of Edinburgh researching retrieval-augmented generation, model memory, multi-hop reasoning, and language agents.",
     "location": {
       "address": "School of Informatics",
       "postalCode": "EH8 9AB",
@@ -19,17 +19,47 @@
         "network": "Google Scholar",
         "username": "kFkg0G0AAAAJ",
         "url": "https://scholar.google.com/citations?user=kFkg0G0AAAAJ"
+      },
+      {
+        "network": "GitHub",
+        "username": "hwy9855",
+        "url": "https://github.com/hwy9855"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "wenyu-huang-b488ba200",
+        "url": "https://www.linkedin.com/in/wenyu-huang-b488ba200/"
       }
     ]
   },
   "work": [
     {
-      "name": "Huawei UK Research and Development Center",
+      "name": "Microsoft Research Cambridge",
+      "position": "Research Intern, Machine Intelligence",
+      "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/",
+      "location": "Cambridge, UK",
+      "startDate": "2026-04-01",
+      "endDate": "2026-06-30",
+      "summary": "Worked with John Winn on memory-augmented language modeling and the parameter efficiency of external factual memory.",
+      "highlights": []
+    },
+    {
+      "name": "Huawei Technologies Research & Development (UK) Ltd",
       "position": "Research Intern",
-      "startDate": "2022-07-01",
-      "endDate": "2022-11-01",
-      "summary": "Research on large-scale offer alignment. Published at SIGIR 2024.",
-      "highlights": ["Offer Alignment", "Entity Matching"]
+      "location": "United Kingdom",
+      "startDate": "2025-07-01",
+      "endDate": "2026-03-31",
+      "summary": "Researched reinforcement learning for language-model agents.",
+      "highlights": []
+    },
+    {
+      "name": "Huawei Technologies Research & Development (UK) Ltd",
+      "position": "Research Intern",
+      "location": "United Kingdom",
+      "startDate": "2022-06-01",
+      "endDate": "2022-11-30",
+      "summary": "Developed methods for large-scale product-offer alignment; the resulting work was published at SIGIR 2024.",
+      "highlights": []
     }
   ],
   "education": [
@@ -64,46 +94,67 @@
   ],
   "publications": [
     {
-      "name": "Masking in Multi-hop {QA}: An Analysis of How Language Models Perform with Context Permutation",
-      "publisher": "Proceedings of ACL 2025",
+      "name": "Memory-T1: Reinforcement Learning for Temporal Reasoning in Multi-session Agents",
+      "publisher": "ICLR 2026, Poster",
+      "releaseDate": "2026-04-24",
+      "url": "https://iclr.cc/virtual/2026/poster/10006811",
+      "summary": "Temporal reasoning and memory in multi-session language agents."
+    },
+    {
+      "name": "Masking in Multi-hop QA: An Analysis of How Language Models Perform with Context Permutation",
+      "publisher": "ACL 2025 (Main Conference), Oral",
       "releaseDate": "2025-07-01",
       "url": "https://aclanthology.org/2025.acl-long.869/",
-      "summary": "ACL 2025 Oral Presentation."
+      "summary": "Oral presentation; context ordering, causal masking, and bidirectional attention for multi-hop reasoning."
+    },
+    {
+      "name": "Rethinking Stateful Tool Use in Multi-Turn Dialogues: Benchmarks and Challenges",
+      "publisher": "Findings of ACL 2025",
+      "releaseDate": "2025-07-01",
+      "url": "https://aclanthology.org/2025.findings-acl.284/",
+      "summary": "Introduced benchmarks for evaluating stateful tool use over long-horizon dialogues."
+    },
+    {
+      "name": "Prompting Large Language Models with Knowledge Graphs for Question Answering Involving Long-tail Facts",
+      "publisher": "Knowledge-Based Systems, 2025",
+      "releaseDate": "2025-05-15",
+      "url": "https://doi.org/10.1016/j.knosys.2025.113648",
+      "summary": "Introduced LTGen and evaluated knowledge-graph and passage evidence for long-tail factual question answering."
     },
     {
       "name": "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future Directions",
-      "publisher": "arXiv preprint arXiv:2505.00675",
+      "publisher": "arXiv, 2025",
       "releaseDate": "2025-05-01",
       "url": "https://arxiv.org/abs/2505.00675",
-      "summary": "Preprint. "
+      "summary": "Equal contribution; a taxonomy of memory representations, operations, and research directions."
     },
     {
       "name": "Less is More: Making Smaller Language Models Competent Subgraph Retrievers for Multi-hop KGQA",
       "publisher": "Findings of EMNLP 2024",
       "releaseDate": "2024-11-01",
       "url": "https://aclanthology.org/2024.findings-emnlp.927/",
-      "summary": "EMNLP 2024 Findings."
+      "summary": "Introduced efficient generative subgraph retrieval for knowledge-graph RAG."
     },
     {
-      "name": "UniMS-RAG: A unified multi-source retrieval-augmented generation for personalized dialogue systems",
-      "publisher": "arXiv preprint arXiv:2401.13256",
+      "name": "A Large-scale Offer Alignment Model for Partitioning, Filtering and Matching Product Offers",
+      "publisher": "SIGIR 2024",
+      "releaseDate": "2024-07-01",
+      "url": "https://doi.org/10.1145/3626772.3661351",
+      "summary": "A scalable pipeline for partitioning, filtering, and matching product offers."
+    },
+    {
+      "name": "UniMS-RAG: A Unified Multi-source Retrieval-Augmented Generation for Personalized Dialogue Systems",
+      "publisher": "arXiv, 2024",
       "releaseDate": "2024-01-01",
       "url": "https://arxiv.org/abs/2401.13256",
-      "summary": "Preprint. "
+      "summary": "Unified retrieval across heterogeneous information sources for personalized dialogue."
     },
     {
-      "name": "Retrieval augmented generation with rich answer encoding",
-      "publisher": "Proceedings of IJCNLP 2023",
+      "name": "Retrieval Augmented Generation with Rich Answer Encoding",
+      "publisher": "IJCNLP-AACL 2023",
       "releaseDate": "2023-11-01",
-      "url": "https://aclanthology.org/events/ijcnlp-2023/",
-      "summary": "Enhanced RAG systems through innovative answer encoding techniques. Published at IJCNLP 2023 with 25+ citations."
-    },
-    {
-      "name": "For more publications, please refer to publications page.",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
+      "url": "https://aclanthology.org/2023.ijcnlp-main.65/",
+      "summary": "Rich answer representations for retrieval-augmented generation in knowledge-intensive NLP."
     }
   ],
   "languages": [

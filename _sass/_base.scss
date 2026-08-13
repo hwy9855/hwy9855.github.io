@@ -225,6 +225,15 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+
+  .profile.profile-small {
+    width: 22%;
+
+    img {
+      aspect-ratio: 7 / 8;
+      object-fit: cover;
+    }
+  }
 }
 
 .post-description {

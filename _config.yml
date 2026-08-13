@@ -7,14 +7,14 @@ first_name: Wenyu
 middle_name: 
 last_name: Huang
 contact_note: >
-  Feel free to reach out for collaborations or discussions about Natural Language Processing and Dialogue Systems.
+  I welcome research collaborations and conversations about full-time LLM/NLP research opportunities.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Natural Language Processing researcher at the School of Informatics, University of Edinburgh. Specializing in dialogue systems, retrieval-augmented generation, and knowledge graph population.
+  Final-year Natural Language Processing PhD candidate at the University of Edinburgh researching retrieval-augmented generation, memory, multi-hop reasoning, and language agents.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: natural-language-processing, dialogue-systems, retrieval-augmented-generation, knowledge-graphs, machine-learning, artificial-intelligence, academic-website # add your own keywords or leave empty
+keywords: natural-language-processing, large-language-models, retrieval-augmented-generation, model-memory, language-agents, multi-hop-reasoning, knowledge-graphs # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -268,6 +268,8 @@ scholar:
 
   style: apa
   locale: en
+  sort_by: year,month
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
@@ -633,6 +635,3 @@ jsonresume:
   - work
   - education
   - publications
-  - languages
-  - interests
-  - references
