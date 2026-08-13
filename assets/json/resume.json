@@ -173,21 +173,12 @@
     {
       "name": "Natural Language Processing",
       "icon": "fa-solid fa-language",
-      "keywords": [
-        "Conversational Search",
-        "Retrieval-Augmented Generation",
-        "Multi-hop Question Answering",
-        "Large Language Models"
-      ]
+      "keywords": ["Conversational Search", "Retrieval-Augmented Generation", "Multi-hop Question Answering", "Large Language Models"]
     },
     {
       "name": "Large Language Models",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Long Context",
-        "Reasoning",
-        "Reinforcement Learning"
-      ]
+      "keywords": ["Long Context", "Reasoning", "Reinforcement Learning"]
     }
   ],
   "references": []

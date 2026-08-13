@@ -26,7 +26,7 @@ announcements:
 
 I am a final-year PhD candidate in Natural Language Processing at the University of Edinburgh, advised by [Prof. Jeff Z. Pan](https://homepages.inf.ed.ac.uk/jpan/) and [Prof. Mirella Lapata](https://homepages.inf.ed.ac.uk/mlap/). I study how language models can **retrieve, retain, and reason with external information**. My research connects retrieval-augmented generation (RAG), non-parametric memory, multi-hop question answering, and LLM agents, with an emphasis on making knowledge-intensive systems more efficient and reliable.
 
-During my PhD, I have been a research intern at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/) working with [John Winn](https://www.microsoft.com/en-us/research/people/jwinn/) on memory-augmented language modeling, and at Huawei UK on reinforcement learning for language-model agents and large-scale entity alignment. My work has appeared at ACL, EMNLP, SIGIR, IJCNLP-AACL, and *Knowledge-Based Systems*, including an ACL 2025 oral paper.
+During my PhD, I have been a research intern at [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/) working with [John Winn](https://www.microsoft.com/en-us/research/people/jwinn/) on memory-augmented language modeling, and at Huawei UK on reinforcement learning for language-model agents and large-scale entity alignment. My work has appeared at ACL, EMNLP, SIGIR, IJCNLP-AACL, and _Knowledge-Based Systems_, including an ACL 2025 oral paper.
 
 <div class="clearfix"></div>
 
