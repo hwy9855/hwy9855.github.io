@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Education, research experience, and publications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -50,30 +50,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-less-is-more-making-smaller-language-models-competent-subgraph-retrievers-for-multi-hop-kgqa-has-been-accepted-by-emnlp-2024-rocket-brain",
+            },},{id: "news-our-paper-less-is-more-making-smaller-language-models-competent-subgraph-retrievers-for-multi-hop-kgqa-was-accepted-to-findings-of-emnlp-2024-code",
           title: 'Our paper “Less is More: Making Smaller Language Models Competent Subgraph Retrievers for...',
           description: "",
-          section: "News",},{id: "news-new-research-on-memory-in-ai-systems",
-          title: 'New Research on Memory in AI Systems',
+          section: "News",},{id: "news-we-released-rethinking-memory-in-ai-a-survey-organizing-ai-memory-by-representation-operation-and-research-topic",
+          title: 'We released “Rethinking Memory in AI,” a survey organizing AI memory by representation,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/memory_survey/";
-            },},{id: "news-our-paper-masking-in-multi-hop-qa-an-analysis-of-how-language-models-perform-with-context-permutation-is-accepted-by-acl-2025-and-selected-for-oral-presentation-sparkles-rocket",
-          title: 'Our paper “Masking in Multi-hop {QA}: An Analysis of How Language Models Perform...',
+          section: "News",},{id: "news-our-paper-masking-in-multi-hop-qa-was-accepted-to-the-acl-2025-main-conference-and-selected-for-an-oral-presentation-code",
+          title: 'Our paper “Masking in Multi-hop QA” was accepted to the ACL 2025 main...',
+          description: "",
+          section: "News",},{id: "news-i-completed-a-research-internship-at-huawei-uk-focused-on-reinforcement-learning-for-language-model-agents",
+          title: 'I completed a research internship at Huawei UK focused on reinforcement learning for...',
+          description: "",
+          section: "News",},{id: "news-i-completed-a-research-internship-with-the-machine-intelligence-group-at-microsoft-research-cambridge-working-with-john-winn-on-memory-augmented-language-modeling",
+          title: 'I completed a research internship with the Machine Intelligence group at Microsoft Research...',
           description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%77%65%6E%79%75.%68%75%61%6E%67@%65%64.%61%63.%75%6B", "_blank");
+          window.open("mailto:%77.%68%75%61%6E%67@%65%64.%61%63.%75%6B", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://github.com/hwy9855", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/wenyu-huang-b488ba200", "_blank");
         },
       },{
         id: 'social-scholar',
