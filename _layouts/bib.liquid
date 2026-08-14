@@ -266,8 +266,15 @@
       {% endif %}
 
       {% assign entry_has_google_scholar_badge = false %}
-      {% if entry.google_scholar_id %}
-        {% assign entry_has_google_scholar_badge = true %}
+      {% assign entry_google_scholar_citations = '' %}
+      {% if site.enable_publication_badges.google_scholar and entry.google_scholar_id %}
+        {% capture entry_google_scholar_citations -%}
+          {% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}
+        {%- endcapture %}
+        {% assign entry_google_scholar_citations = entry_google_scholar_citations | strip %}
+        {% unless entry_google_scholar_citations == 'N/A' or entry_google_scholar_citations == blank %}
+          {% assign entry_has_google_scholar_badge = true %}
+        {% endunless %}
       {% endif %}
 
       {% assign entry_has_inspirehep_badge = false %}
@@ -318,8 +325,8 @@
               role="button"
             >
               <img
-                src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+                src="https://img.shields.io/badge/scholar-{{ entry_google_scholar_citations }}-4285F4?logo=googlescholar&labelColor=beige"
+                alt="{{ entry_google_scholar_citations }} Google Scholar citations"
               >
             </a>
           {% endif %}
